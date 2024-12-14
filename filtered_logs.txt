@@ -1,0 +1,15 @@
+[2024-12-11 11:32:25] [ERROR] [/lidar_processor]: Sensor input timeout exceeded for node /lidar_processor.
+[2024-12-11 11:32:48] [ERROR] [/lidar_processor]: Sensor input timeout exceeded for node /lidar_processor.
+[2024-12-11 11:34:17] [ERROR] [/lidar_processor]: Sensor input timeout exceeded for node /lidar_processor.
+[2024-12-11 11:36:46] [ERROR] [/lidar_processor]: Sensor input timeout exceeded for node /lidar_processor.
+[2024-12-11 11:41:57] [ERROR] [/lidar_processor]: Sensor input timeout exceeded for node /lidar_processor.
+[2024-12-11 11:44:18] [ERROR] [/lidar_processor]: Sensor input timeout exceeded for node /lidar_processor.
+[2024-12-11 11:46:21] [ERROR] [/lidar_processor]: Sensor input timeout exceeded for node /lidar_processor.
+[2024-12-11 11:44:31] [ERROR] [/lidar_processor]: Sensor input timeout exceeded for node /lidar_processor.
+[2024-12-11 12:08:00] [ERROR] [/lidar_processor]: Sensor input timeout exceeded for node /lidar_processor.
+[2024-12-11 11:52:37] [ERROR] [/lidar_processor]: Sensor input timeout exceeded for node /lidar_processor.
+[2024-12-11 12:13:35] [ERROR] [/lidar_processor]: Sensor input timeout exceeded for node /lidar_processor.
+[2024-12-11 12:05:51] [ERROR] [/lidar_processor]: Sensor input timeout exceeded for node /lidar_processor.
+[2024-12-11 12:23:32] [ERROR] [/lidar_processor]: Sensor input timeout exceeded for node /lidar_processor.
+[2024-12-11 11:52:58] [ERROR] [/lidar_processor]: Sensor input timeout exceeded for node /lidar_processor.
+[2024-12-11 11:52:28] [ERROR] [/lidar_processor]: Sensor input timeout exceeded for node /lidar_processor.
