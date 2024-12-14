@@ -33,5 +33,5 @@ def filter_logs(logs, severity=None, keyword=None):
     if severity:
         filtered = [log for log in filtered if log["severity"] == severity]
     if keyword:
-        filtered = [log for log in filtered if keyword in log["message"]]
+        filtered = [log for log in filtered if keyword.lower() in log["message"].lower()]
     return filtered

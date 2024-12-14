@@ -37,13 +37,15 @@ def get_logs(response:Response,severity: str = None, keyword: str = None):
     return {"logs": filtered_logs}
 
 @router.get("/download/")
-def download_filtered_logs(severity: str = None, keyword: str = None):
+def download_filtered_logs(response:Response,severity: str = None, keyword: str = None):
     """
     Generate and return a filtered log file for download.
     """
     filtered_logs = filter_logs(logs_storage, severity, keyword)
+    print(keyword)
     file_path = "filtered_logs.txt"
     with open(file_path, "w") as file:
         for log in filtered_logs:
             file.write(f"[{log['timestamp']}] [{log['severity']}] [{log['node']}]: {log['message']}\n")
+    response.headers["Access-Control-Allow-Origin"] = "*"
     return FileResponse(file_path, media_type="text/plain", filename="filtered_logs.txt")
